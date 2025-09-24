@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/assets/update-data/Logo-game.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Supabased Game</title>
+    <!-- Tailwind for quick prototyping.  You can remove it or replace with your own CSS framework. -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background-color: #f4f1de;
+        background-image:
+          linear-gradient(rgba(0, 72, 171, 0.1) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(0, 72, 171, 0.1) 1px, transparent 1px);
+        background-size: 20px 20px;
+      }
+    </style>
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "@google/genai": "https://esm.sh/@google/genai@0.15.0",
+    "@supabase/supabase-js": "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.38.5/+esm"
+  }
+}
+</script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+  </body>
+</html>
